@@ -23,7 +23,7 @@ app.use("/uploads", express.static(__dirname + "/uploads"));
 app.use(
   cors({
     credentials: true,
-    origin: process.env.CLIENT,
+    origin: true,
   })
 );
 
